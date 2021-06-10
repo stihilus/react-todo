@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background: rgb(46, 46, 46);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background: rgb(59, 59, 59);
+    height: 35px;
+    border: 0px;
+    color: brown;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn:hover {
+    color: rgb(255, 119, 119);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-btn{
+    background: rgb(87, 87, 87);
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    color: rgb(26, 26, 26);;
+}
+.app-title{
+    text-align: center;
+    color: rgb(92, 92, 92);
+    font-size: 50px;
+}
+.container{
+    border-radius: 3px;
+    padding: 40px;
+    background: rgb(59, 59, 59);
 }
 
-.App-link {
-  color: #61dafb;
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.addItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 0px;
+    border-radius: 3px;
+    background: rgb(87, 87, 87);
+}
+
+h3 {
+    color: rgb(26, 26, 26);
+    margin: 0px;
+    margin-right: 15px;
+
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    border: 0px;
+    background-color: rgb(78, 78, 78);;
+    
+}
+
+li {
+    color: rgb(26, 26, 26);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0px 0px 0px 15px;
+    max-width: 80%;
 }
